@@ -46,6 +46,6 @@ public class IP_G_UniqueEmailAddresses extends AbstractQuestion {
     public void evaluate() {
         IP_G_UniqueEmailAddresses test = new IP_G_UniqueEmailAddresses();
         String[] emails = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
-        test.numUniqueEmails(emails);
+        System.out.println("No. of Unique Emails := "+test.numUniqueEmails(emails));
     }
 }
