@@ -18,10 +18,10 @@ public class IP_G_LicenseKeyFormatting extends AbstractQuestion {
                 curLen = 0;
                 buff.append("-");
             }
-            buff.append(S.charAt(i));
+            buff.append(Character.toUpperCase(S.charAt(i)));
             curLen++;
         }
-        return buff.reverse().toString().toUpperCase();
+        return buff.reverse().toString();
     }
 
     @Override
