@@ -1,4 +1,8 @@
 package com.amz.common;
 
-public class AbstractQuestion {
+import org.junit.Test;
+
+public abstract class AbstractQuestion {
+    @Test
+    public abstract void evaluate();
 }
