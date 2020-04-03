@@ -3,7 +3,7 @@ package com.amz.problems;
 import com.amz.common.AbstractQuestion;
 import org.junit.Test;
 
-public class CHZ_30Day_MaximunSubarray extends AbstractQuestion {
+public class CHZ_30Day_MaximumSubarray extends AbstractQuestion {
 
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -21,7 +21,7 @@ public class CHZ_30Day_MaximunSubarray extends AbstractQuestion {
     @Override
     @Test
     public void evaluate() {
-        CHZ_30Day_MaximunSubarray test = new CHZ_30Day_MaximunSubarray();
+        CHZ_30Day_MaximumSubarray test = new CHZ_30Day_MaximumSubarray();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println("Length of Maximum sum sub-array := " + test.maxSubArray(nums));
     }
