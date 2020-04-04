@@ -11,6 +11,7 @@ public class RS_G01_HeightChecker extends AbstractQuestion {
             return 0;
         }
         int[] copy = Arrays.copyOf(heights, heights.length);
+        // counting sort can also be used for limited cases.
         Arrays.sort(copy);
         int count = 0;
         for (int i = 0; i < copy.length; i++) {
