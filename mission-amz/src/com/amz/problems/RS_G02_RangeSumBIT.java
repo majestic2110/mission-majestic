@@ -70,6 +70,6 @@ public class RS_G02_RangeSumBIT extends AbstractQuestion {
     public void evaluate() {
         int[] nums = {1, 3, 5};
         NumArray test = new NumArray(nums);
-        test.sumRange(0, 2);
+        System.out.println("Sum := " + test.sumRange(0, 2));
     }
 }

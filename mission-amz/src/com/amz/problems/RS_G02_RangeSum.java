@@ -36,6 +36,8 @@ public class RS_G02_RangeSum extends AbstractQuestion {
     @Override
     @Test
     public void evaluate() {
-        // to be done
+        int[] nums = {1, 3, 5};
+        NumArray test = new NumArray(nums);
+        System.out.println("Sum := " + test.sumRange(0, 2));
     }
 }
