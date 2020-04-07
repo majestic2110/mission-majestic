@@ -12,9 +12,9 @@ public class CHZ_30Day_CountingElements extends AbstractQuestion {
             return 0;
         }
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            int count = map.getOrDefault(arr[i], 0);
-            map.put(arr[i], count + 1);
+        for (int value : arr) {
+            int count = map.getOrDefault(value, 0);
+            map.put(value, count + 1);
         }
         int count = 0;
         for (Integer item : map.keySet()) {
