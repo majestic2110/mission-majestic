@@ -3,6 +3,8 @@ package com.amz.problems;
 import com.amz.common.AbstractQuestion;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 public class CHZ_30Day_MaximumSubarray extends AbstractQuestion {
 
     public int maxSubArray(int[] nums) {
@@ -23,6 +25,6 @@ public class CHZ_30Day_MaximumSubarray extends AbstractQuestion {
     public void evaluate() {
         CHZ_30Day_MaximumSubarray test = new CHZ_30Day_MaximumSubarray();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println("Length of Maximum sum sub-array := " + test.maxSubArray(nums));
+        assertTrue(test.maxSubArray(nums) == 6);
     }
 }

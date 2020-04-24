@@ -3,6 +3,8 @@ package com.amz.problems;
 import com.amz.common.AbstractQuestion;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 public class CHZ_30Day_MinimumPathSum extends AbstractQuestion {
     public int minPathSum(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
@@ -26,6 +28,6 @@ public class CHZ_30Day_MinimumPathSum extends AbstractQuestion {
     public void evaluate() {
         CHZ_30Day_MinimumPathSum test = new CHZ_30Day_MinimumPathSum();
         int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
-        System.out.println("Min path := " + test.minPathSum(grid));
+        assertTrue(test.minPathSum(grid) == 7);
     }
 }

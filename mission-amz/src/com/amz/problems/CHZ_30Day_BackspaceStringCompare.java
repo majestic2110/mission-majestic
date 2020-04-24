@@ -3,6 +3,8 @@ package com.amz.problems;
 import com.amz.common.AbstractQuestion;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
+
 public class CHZ_30Day_BackspaceStringCompare extends AbstractQuestion {
     public boolean backspaceCompare(String S, String T) {
         if (S == null || T == null) {
@@ -74,7 +76,7 @@ public class CHZ_30Day_BackspaceStringCompare extends AbstractQuestion {
         CHZ_30Day_BackspaceStringCompare test = new CHZ_30Day_BackspaceStringCompare();
         String s1 = "a#b#c";
         String s2 = "cbn##";
-        System.out.println("BackSpace compare := " + test.backspaceCompare(s1, s2));
-        System.out.println("BackSpace compare II := " + test.backspaceCompareII(s1, s2));
+        assertTrue(test.backspaceCompare(s1, s2));
+        assertTrue(test.backspaceCompareII(s1, s2));
     }
 }
