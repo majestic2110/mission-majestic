@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -21,8 +20,7 @@ public class CHZ_30Day_MaximumSubarray extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_MaximumSubarray test = new CHZ_30Day_MaximumSubarray();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         assertTrue(test.maxSubArray(nums) == 6);

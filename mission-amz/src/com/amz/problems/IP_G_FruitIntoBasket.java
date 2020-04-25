@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -30,8 +29,7 @@ public class IP_G_FruitIntoBasket extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_FruitIntoBasket test = new IP_G_FruitIntoBasket();
         int[] tree = {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4};
         System.out.println("Max Fruits collected := " + test.totalFruit(tree));

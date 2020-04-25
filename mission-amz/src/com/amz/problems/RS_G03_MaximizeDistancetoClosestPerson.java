@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class RS_G03_MaximizeDistancetoClosestPerson extends AbstractQuestion {
 
@@ -31,8 +30,7 @@ public class RS_G03_MaximizeDistancetoClosestPerson extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         RS_G03_MaximizeDistancetoClosestPerson test = new RS_G03_MaximizeDistancetoClosestPerson();
         int[] seats = {1, 0, 0, 0, 1, 0, 1};
         System.out.println("Max Distance := " + test.maxDistToClosest(seats));

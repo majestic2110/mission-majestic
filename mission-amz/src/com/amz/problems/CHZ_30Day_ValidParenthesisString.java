@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class CHZ_30Day_ValidParenthesisString extends AbstractQuestion {
 
@@ -34,8 +33,7 @@ public class CHZ_30Day_ValidParenthesisString extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_ValidParenthesisString test = new CHZ_30Day_ValidParenthesisString();
         System.out.println("Is Valid Parenthesis := " + test.checkValidString("((*)**"));
     }

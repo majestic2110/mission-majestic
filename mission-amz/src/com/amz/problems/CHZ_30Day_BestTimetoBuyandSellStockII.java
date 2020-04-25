@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -21,8 +20,7 @@ public class CHZ_30Day_BestTimetoBuyandSellStockII extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_BestTimetoBuyandSellStockII test = new CHZ_30Day_BestTimetoBuyandSellStockII();
         int[] prices = {1, 2, 3, 4, 5};
         assertTrue(test.maxProfit(prices) == 4);

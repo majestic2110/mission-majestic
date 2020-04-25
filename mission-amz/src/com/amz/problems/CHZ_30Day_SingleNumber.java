@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class CHZ_30Day_SingleNumber extends AbstractQuestion {
     public int singleNumber(int[] nums) {
@@ -16,8 +15,7 @@ public class CHZ_30Day_SingleNumber extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_SingleNumber test = new CHZ_30Day_SingleNumber();
         int[] nums = {3, 3, 1, 2, 1, 2, 4, 5, 4};
         System.out.println("Single No. Without Repetition := " + test.singleNumber(nums));

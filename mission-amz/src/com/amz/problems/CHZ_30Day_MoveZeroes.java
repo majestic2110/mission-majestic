@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -25,8 +24,7 @@ public class CHZ_30Day_MoveZeroes extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_MoveZeroes test = new CHZ_30Day_MoveZeroes();
         int[] nums = {0, 1, 0, 3, 12};
         test.moveZeroes(nums);

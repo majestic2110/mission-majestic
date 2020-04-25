@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,8 +25,7 @@ public class IP_G_LongestSubstringWithoutRepeatingCharacters extends AbstractQue
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_LongestSubstringWithoutRepeatingCharacters test = new IP_G_LongestSubstringWithoutRepeatingCharacters();
         String str = "abcbbshdge";
         System.out.println("Length of the longest substring := " + test.lengthOfLongestSubstring(str));

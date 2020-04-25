@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class CHZ_30Day_NumberofIslands extends AbstractQuestion {
     int maxRow;
@@ -37,8 +36,7 @@ public class CHZ_30Day_NumberofIslands extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_NumberofIslands test = new CHZ_30Day_NumberofIslands();
         char[][] grid = {{'0', '1', '0', '1'}};
         System.out.println("No. of islands := " + test.numIslands(grid));

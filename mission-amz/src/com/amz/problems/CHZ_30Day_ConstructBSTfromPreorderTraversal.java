@@ -2,7 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 import com.amz.common.TreeNode;
-import org.junit.Test;
 
 public class CHZ_30Day_ConstructBSTfromPreorderTraversal extends AbstractQuestion {
     public TreeNode bstFromPreorder(int[] preorder) {
@@ -29,8 +28,7 @@ public class CHZ_30Day_ConstructBSTfromPreorderTraversal extends AbstractQuestio
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         // to be done
     }
 }

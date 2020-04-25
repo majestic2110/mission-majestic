@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class RS_G02_LargestTime extends AbstractQuestion {
     public String largestTimeFromDigits(int[] A) {
@@ -29,8 +28,7 @@ public class RS_G02_LargestTime extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         RS_G02_LargestTime test = new RS_G02_LargestTime();
         int[] nums = {1, 2, 3, 4};
         System.out.println("Max Time := " + test.largestTimeFromDigits(nums));

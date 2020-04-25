@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -42,8 +41,7 @@ public class IP_G_UniqueEmailAddresses extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_UniqueEmailAddresses test = new IP_G_UniqueEmailAddresses();
         String[] emails = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
         System.out.println("No. of Unique Emails := " + test.numUniqueEmails(emails));

@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -71,8 +70,7 @@ public class CHZ_30Day_BackspaceStringCompare extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_BackspaceStringCompare test = new CHZ_30Day_BackspaceStringCompare();
         String s1 = "a#b#c";
         String s2 = "cbn##";

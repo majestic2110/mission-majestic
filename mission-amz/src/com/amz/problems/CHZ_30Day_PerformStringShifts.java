@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class CHZ_30Day_PerformStringShifts extends AbstractQuestion {
     public String stringShift(String s, int[][] shift) {
@@ -26,8 +25,7 @@ public class CHZ_30Day_PerformStringShifts extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_PerformStringShifts test = new CHZ_30Day_PerformStringShifts();
         String str = "yisxjwry";
         int[][] shift = {{1, 8}, {1, 4}, {1, 3}, {1, 6}, {0, 6}, {1, 4}, {0, 2}, {0, 1}};

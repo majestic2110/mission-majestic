@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -42,8 +41,7 @@ public class RS_G03_RotatedDigits extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         RS_G03_RotatedDigits test = new RS_G03_RotatedDigits();
         System.out.println("Good numbers := " + test.rotatedDigits(100));
     }

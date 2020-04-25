@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -32,8 +31,7 @@ public class CHZ_30Day_ContiguousArray extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_ContiguousArray test = new CHZ_30Day_ContiguousArray();
         int[] nums = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0};
         assertTrue(test.findMaxLength(nums) == 4);

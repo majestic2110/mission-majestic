@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashMap;
 
@@ -87,8 +86,7 @@ public class CHZ_30Day_LRUCache extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         // to be done
     }
 }

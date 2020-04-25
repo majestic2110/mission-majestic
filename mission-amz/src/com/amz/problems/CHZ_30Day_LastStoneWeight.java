@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
@@ -29,8 +28,7 @@ public class CHZ_30Day_LastStoneWeight extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_LastStoneWeight test = new CHZ_30Day_LastStoneWeight();
         int[] stones = {2, 7, 4, 1, 8, 1};
         assertTrue(test.lastStoneWeight(stones) == 1);

@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class IP_G_LicenseKeyFormatting extends AbstractQuestion {
     public String licenseKeyFormatting(String S, int K) {
@@ -25,8 +24,7 @@ public class IP_G_LicenseKeyFormatting extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_LicenseKeyFormatting test = new IP_G_LicenseKeyFormatting();
         String str = "--a-a-a-a--";
         int k = 2;

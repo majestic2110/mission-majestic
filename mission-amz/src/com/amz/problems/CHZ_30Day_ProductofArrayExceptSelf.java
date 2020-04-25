@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -52,8 +51,7 @@ public class CHZ_30Day_ProductofArrayExceptSelf extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_ProductofArrayExceptSelf test = new CHZ_30Day_ProductofArrayExceptSelf();
         int[] nums = {1, 2, 3, 4};
         System.out.println("Product of Array Except Self := " + Arrays.toString(test.productExceptSelf(nums)));

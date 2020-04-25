@@ -2,7 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 import com.amz.common.TreeNode;
-import org.junit.Test;
 
 public class CHZ_30Day_DiameterofBinaryTree extends AbstractQuestion {
     int dia = 1;
@@ -23,8 +22,7 @@ public class CHZ_30Day_DiameterofBinaryTree extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         // to be done
     }
 }

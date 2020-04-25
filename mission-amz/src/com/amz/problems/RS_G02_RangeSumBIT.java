@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class RS_G02_RangeSumBIT extends AbstractQuestion {
     class NumArray {
@@ -66,8 +65,7 @@ public class RS_G02_RangeSumBIT extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         int[] nums = {1, 3, 5};
         NumArray test = new NumArray(nums);
         System.out.println("Sum := " + test.sumRange(0, 2));

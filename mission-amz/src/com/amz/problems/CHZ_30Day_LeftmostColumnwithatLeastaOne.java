@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.List;
 
@@ -33,8 +32,7 @@ public class CHZ_30Day_LeftmostColumnwithatLeastaOne extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         // to be done
     }
 }

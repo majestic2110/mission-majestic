@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.*;
 
@@ -32,8 +31,7 @@ public class CHZ_30Day_GroupAnagrams extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_GroupAnagrams test = new CHZ_30Day_GroupAnagrams();
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println("Group Anagrams := " + test.groupAnagrams(strs));

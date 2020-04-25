@@ -2,7 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 import com.amz.common.ListNode;
-import org.junit.Test;
 
 public class IP_G_RemoveNthNodeFromEndofList extends AbstractQuestion {
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -26,8 +25,7 @@ public class IP_G_RemoveNthNodeFromEndofList extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_RemoveNthNodeFromEndofList test = new IP_G_RemoveNthNodeFromEndofList();
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);

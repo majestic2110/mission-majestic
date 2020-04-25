@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -24,8 +23,7 @@ public class CHZ_30Day_MinimumPathSum extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_MinimumPathSum test = new CHZ_30Day_MinimumPathSum();
         int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
         assertTrue(test.minPathSum(grid) == 7);

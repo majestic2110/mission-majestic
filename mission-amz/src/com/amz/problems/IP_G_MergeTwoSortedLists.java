@@ -2,7 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 import com.amz.common.ListNode;
-import org.junit.Test;
 
 public class IP_G_MergeTwoSortedLists extends AbstractQuestion {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -30,8 +29,7 @@ public class IP_G_MergeTwoSortedLists extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_MergeTwoSortedLists test = new IP_G_MergeTwoSortedLists();
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(1);

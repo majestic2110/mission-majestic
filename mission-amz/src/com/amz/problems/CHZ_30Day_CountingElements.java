@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,8 +27,7 @@ public class CHZ_30Day_CountingElements extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_CountingElements test = new CHZ_30Day_CountingElements();
         int[] nums = {1, 2, 3, 4, 5, 1, 2, 2, 1, 1, 1};
         assertTrue(test.countElements(nums) == 10);

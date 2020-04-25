@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -41,8 +40,7 @@ public class IP_G_OddEvenJump extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         IP_G_OddEvenJump test = new IP_G_OddEvenJump();
         int[] A = {10, 13, 12, 14, 15};
         System.out.println("No. of Jumps := " + test.oddEvenJumps(A));

@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -14,8 +13,7 @@ public class CHZ_30Day_BitwiseANDofNumbersRange extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_BitwiseANDofNumbersRange test = new CHZ_30Day_BitwiseANDofNumbersRange();
         assertTrue(test.rangeBitwiseAnd(5, 7) == 4);
     }

@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class CHZ_30Day_SearchInRotatedSortedArray extends AbstractQuestion {
 
@@ -41,8 +40,7 @@ public class CHZ_30Day_SearchInRotatedSortedArray extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_SearchInRotatedSortedArray test = new CHZ_30Day_SearchInRotatedSortedArray();
         int[] nums = {5, 6, 7, 1, 2, 3, 4};
         System.out.println("Element found at location := " + test.search(nums, 6));

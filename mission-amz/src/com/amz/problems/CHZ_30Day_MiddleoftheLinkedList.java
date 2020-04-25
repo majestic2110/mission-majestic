@@ -2,7 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 import com.amz.common.ListNode;
-import org.junit.Test;
 
 public class CHZ_30Day_MiddleoftheLinkedList extends AbstractQuestion {
     public ListNode middleNode(ListNode head) {
@@ -19,8 +18,7 @@ public class CHZ_30Day_MiddleoftheLinkedList extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         CHZ_30Day_MiddleoftheLinkedList test = new CHZ_30Day_MiddleoftheLinkedList();
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);

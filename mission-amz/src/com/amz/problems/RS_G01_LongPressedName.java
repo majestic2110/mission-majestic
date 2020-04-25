@@ -1,7 +1,6 @@
 package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
-import org.junit.Test;
 
 public class RS_G01_LongPressedName extends AbstractQuestion {
     public boolean isLongPressedName(String name, String typed) {
@@ -29,8 +28,7 @@ public class RS_G01_LongPressedName extends AbstractQuestion {
     }
 
     @Override
-    @Test
-    public void evaluate() {
+    public void simulate() {
         RS_G01_LongPressedName test = new RS_G01_LongPressedName();
         String name = "saeed";
         String typed = "ssaaedd";
