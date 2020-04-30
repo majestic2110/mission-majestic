@@ -23,11 +23,4 @@ public class IP_G_LicenseKeyFormatting extends AbstractQuestion {
         return buff.reverse().toString();
     }
 
-    @Override
-    public void simulate() {
-        IP_G_LicenseKeyFormatting test = new IP_G_LicenseKeyFormatting();
-        String str = "--a-a-a-a--";
-        int k = 2;
-        System.out.println("Formatted Key := " + test.licenseKeyFormatting(str, k));
-    }
 }

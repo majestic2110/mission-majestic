@@ -2,8 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 
-import java.util.Arrays;
-
 public class CHZ_30Day_MoveZeroes extends AbstractQuestion {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -23,11 +21,4 @@ public class CHZ_30Day_MoveZeroes extends AbstractQuestion {
         }
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_MoveZeroes test = new CHZ_30Day_MoveZeroes();
-        int[] nums = {0, 1, 0, 3, 12};
-        test.moveZeroes(nums);
-        System.out.println("Array after moving zeros := " + Arrays.toString(nums));
-    }
 }

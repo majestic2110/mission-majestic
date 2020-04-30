@@ -27,10 +27,4 @@ public class RS_G02_LargestTime extends AbstractQuestion {
         return maxTime >= 0 ? String.format("%02d:%02d", maxTime / 60, maxTime % 60) : "";
     }
 
-    @Override
-    public void simulate() {
-        RS_G02_LargestTime test = new RS_G02_LargestTime();
-        int[] nums = {1, 2, 3, 4};
-        System.out.println("Max Time := " + test.largestTimeFromDigits(nums));
-    }
 }

@@ -5,8 +5,6 @@ import com.amz.common.AbstractQuestion;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertTrue;
-
 public class CHZ_30Day_ContiguousArray extends AbstractQuestion {
     public int findMaxLength(int[] nums) {
         if (nums == null || nums.length <= 1) {
@@ -28,12 +26,5 @@ public class CHZ_30Day_ContiguousArray extends AbstractQuestion {
             }
         }
         return maxLen;
-    }
-
-    @Override
-    public void simulate() {
-        CHZ_30Day_ContiguousArray test = new CHZ_30Day_ContiguousArray();
-        int[] nums = {0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0};
-        assertTrue(test.findMaxLength(nums) == 4);
     }
 }

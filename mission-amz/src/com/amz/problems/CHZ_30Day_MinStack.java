@@ -42,8 +42,5 @@ public class CHZ_30Day_MinStack extends AbstractQuestion {
         }
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
+
 }

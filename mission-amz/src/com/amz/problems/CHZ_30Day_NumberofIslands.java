@@ -35,10 +35,5 @@ public class CHZ_30Day_NumberofIslands extends AbstractQuestion {
         destroyIsland(grid, row, col - 1);
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_NumberofIslands test = new CHZ_30Day_NumberofIslands();
-        char[][] grid = {{'0', '1', '0', '1'}};
-        System.out.println("No. of islands := " + test.numIslands(grid));
-    }
+
 }

@@ -2,8 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 
-import java.util.Arrays;
-
 public class CHZ_30Day_ProductofArrayExceptSelf extends AbstractQuestion {
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -50,11 +48,4 @@ public class CHZ_30Day_ProductofArrayExceptSelf extends AbstractQuestion {
         return arr;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_ProductofArrayExceptSelf test = new CHZ_30Day_ProductofArrayExceptSelf();
-        int[] nums = {1, 2, 3, 4};
-        System.out.println("Product of Array Except Self := " + Arrays.toString(test.productExceptSelf(nums)));
-        System.out.println("Product of Array Except Self := " + Arrays.toString(test.productExceptSelfII(nums)));
-    }
 }

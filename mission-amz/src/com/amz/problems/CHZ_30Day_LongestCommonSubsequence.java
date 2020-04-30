@@ -24,8 +24,5 @@ public class CHZ_30Day_LongestCommonSubsequence extends AbstractQuestion {
         return maxLCS;
     }
 
-    @Override
-    public void simulate() {
 
-    }
 }

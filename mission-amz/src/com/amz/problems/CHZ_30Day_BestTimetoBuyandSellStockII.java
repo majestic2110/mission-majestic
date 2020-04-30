@@ -2,8 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 
-import static org.junit.Assert.assertTrue;
-
 public class CHZ_30Day_BestTimetoBuyandSellStockII extends AbstractQuestion {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
@@ -19,10 +17,4 @@ public class CHZ_30Day_BestTimetoBuyandSellStockII extends AbstractQuestion {
         return t_ki0;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_BestTimetoBuyandSellStockII test = new CHZ_30Day_BestTimetoBuyandSellStockII();
-        int[] prices = {1, 2, 3, 4, 5};
-        assertTrue(test.maxProfit(prices) == 4);
-    }
 }

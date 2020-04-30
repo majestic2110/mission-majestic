@@ -5,8 +5,6 @@ import com.amz.common.AbstractQuestion;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertTrue;
-
 public class CHZ_30Day_CountingElements extends AbstractQuestion {
     public int countElements(int[] arr) {
         if (arr == null || arr.length == 0) {
@@ -26,10 +24,4 @@ public class CHZ_30Day_CountingElements extends AbstractQuestion {
         return count;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_CountingElements test = new CHZ_30Day_CountingElements();
-        int[] nums = {1, 2, 3, 4, 5, 1, 2, 2, 1, 1, 1};
-        assertTrue(test.countElements(nums) == 10);
-    }
 }

@@ -2,8 +2,6 @@ package com.amz.problems;
 
 import com.amz.common.AbstractQuestion;
 
-import static org.junit.Assert.assertTrue;
-
 public class CHZ_30Day_HappyNumber extends AbstractQuestion {
     public boolean isHappy(int n) {
         if (n == 0) {
@@ -28,9 +26,4 @@ public class CHZ_30Day_HappyNumber extends AbstractQuestion {
         return x;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_HappyNumber test = new CHZ_30Day_HappyNumber();
-        assertTrue(test.isHappy(167));
-    }
 }

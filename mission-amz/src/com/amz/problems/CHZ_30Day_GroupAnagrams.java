@@ -30,10 +30,4 @@ public class CHZ_30Day_GroupAnagrams extends AbstractQuestion {
         return resList;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_GroupAnagrams test = new CHZ_30Day_GroupAnagrams();
-        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        System.out.println("Group Anagrams := " + test.groupAnagrams(strs));
-    }
 }

@@ -39,10 +39,4 @@ public class CHZ_30Day_SearchInRotatedSortedArray extends AbstractQuestion {
         return -1;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_SearchInRotatedSortedArray test = new CHZ_30Day_SearchInRotatedSortedArray();
-        int[] nums = {5, 6, 7, 1, 2, 3, 4};
-        System.out.println("Element found at location := " + test.search(nums, 6));
-    }
 }

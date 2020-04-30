@@ -33,21 +33,4 @@ public class IP_G_AddTwoNumbers extends AbstractQuestion {
         return head.next;
     }
 
-    @Override
-    public void simulate() {
-        IP_G_AddTwoNumbers test = new IP_G_AddTwoNumbers();
-        ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
-        ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(9);
-        ListNode l3 = test.addTwoNumbers(l1, l2);
-        System.out.print("l1 := ");
-        l1.display();
-        System.out.print("l2 := ");
-        l2.display();
-        System.out.print("Adding two numbers := ");
-        l3.display();
-    }
 }

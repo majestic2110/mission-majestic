@@ -39,10 +39,4 @@ public class IP_G_OddEvenJump extends AbstractQuestion {
         return jumps;
     }
 
-    @Override
-    public void simulate() {
-        IP_G_OddEvenJump test = new IP_G_OddEvenJump();
-        int[] A = {10, 13, 12, 14, 15};
-        System.out.println("No. of Jumps := " + test.oddEvenJumps(A));
-    }
 }

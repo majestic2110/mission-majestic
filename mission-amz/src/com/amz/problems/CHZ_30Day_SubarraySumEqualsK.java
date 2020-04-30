@@ -25,10 +25,4 @@ public class CHZ_30Day_SubarraySumEqualsK extends AbstractQuestion {
         return count;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_SubarraySumEqualsK test = new CHZ_30Day_SubarraySumEqualsK();
-        int[] nums = {5, 6, 7, 1, 2, 3, 4};
-        System.out.println("Element found at location := " + test.subarraySum(nums, 6));
-    }
 }

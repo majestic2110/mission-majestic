@@ -24,11 +24,4 @@ public class CHZ_30Day_PerformStringShifts extends AbstractQuestion {
         return buff.toString();
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_PerformStringShifts test = new CHZ_30Day_PerformStringShifts();
-        String str = "yisxjwry";
-        int[][] shift = {{1, 8}, {1, 4}, {1, 3}, {1, 6}, {0, 6}, {1, 4}, {0, 2}, {0, 1}};
-        System.out.println("Shifted string := " + test.stringShift(str, shift));
-    }
 }

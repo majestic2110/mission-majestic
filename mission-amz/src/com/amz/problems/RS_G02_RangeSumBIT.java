@@ -64,10 +64,4 @@ public class RS_G02_RangeSumBIT extends AbstractQuestion {
         }
     }
 
-    @Override
-    public void simulate() {
-        int[] nums = {1, 3, 5};
-        NumArray test = new NumArray(nums);
-        System.out.println("Sum := " + test.sumRange(0, 2));
-    }
 }

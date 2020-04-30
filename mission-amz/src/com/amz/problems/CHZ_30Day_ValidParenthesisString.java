@@ -32,9 +32,4 @@ public class CHZ_30Day_ValidParenthesisString extends AbstractQuestion {
         return open == 0;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_ValidParenthesisString test = new CHZ_30Day_ValidParenthesisString();
-        System.out.println("Is Valid Parenthesis := " + test.checkValidString("((*)**"));
-    }
 }

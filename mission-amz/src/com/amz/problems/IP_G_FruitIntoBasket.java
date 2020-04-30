@@ -28,10 +28,4 @@ public class IP_G_FruitIntoBasket extends AbstractQuestion {
         return maxCount;
     }
 
-    @Override
-    public void simulate() {
-        IP_G_FruitIntoBasket test = new IP_G_FruitIntoBasket();
-        int[] tree = {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4};
-        System.out.println("Max Fruits collected := " + test.totalFruit(tree));
-    }
 }

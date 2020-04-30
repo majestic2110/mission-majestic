@@ -40,9 +40,4 @@ public class RS_G03_RotatedDigits extends AbstractQuestion {
         return good;
     }
 
-    @Override
-    public void simulate() {
-        RS_G03_RotatedDigits test = new RS_G03_RotatedDigits();
-        System.out.println("Good numbers := " + test.rotatedDigits(100));
-    }
 }

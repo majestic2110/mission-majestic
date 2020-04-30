@@ -21,8 +21,4 @@ public class CHZ_30Day_BinaryTreeMaximumPathSum extends AbstractQuestion {
         return root.val + Math.max(left, right);
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
 }

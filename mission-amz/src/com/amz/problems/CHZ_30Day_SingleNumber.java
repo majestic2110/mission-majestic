@@ -14,10 +14,4 @@ public class CHZ_30Day_SingleNumber extends AbstractQuestion {
         return num;
     }
 
-    @Override
-    public void simulate() {
-        CHZ_30Day_SingleNumber test = new CHZ_30Day_SingleNumber();
-        int[] nums = {3, 3, 1, 2, 1, 2, 4, 5, 4};
-        System.out.println("Single No. Without Repetition := " + test.singleNumber(nums));
-    }
 }

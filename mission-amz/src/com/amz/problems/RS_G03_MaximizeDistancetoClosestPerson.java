@@ -29,10 +29,4 @@ public class RS_G03_MaximizeDistancetoClosestPerson extends AbstractQuestion {
         return maxLen;
     }
 
-    @Override
-    public void simulate() {
-        RS_G03_MaximizeDistancetoClosestPerson test = new RS_G03_MaximizeDistancetoClosestPerson();
-        int[] seats = {1, 0, 0, 0, 1, 0, 1};
-        System.out.println("Max Distance := " + test.maxDistToClosest(seats));
-    }
 }

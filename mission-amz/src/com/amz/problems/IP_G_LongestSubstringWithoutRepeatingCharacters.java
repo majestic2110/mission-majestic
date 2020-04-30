@@ -24,10 +24,4 @@ public class IP_G_LongestSubstringWithoutRepeatingCharacters extends AbstractQue
         return maxLen;
     }
 
-    @Override
-    public void simulate() {
-        IP_G_LongestSubstringWithoutRepeatingCharacters test = new IP_G_LongestSubstringWithoutRepeatingCharacters();
-        String str = "abcbbshdge";
-        System.out.println("Length of the longest substring := " + test.lengthOfLongestSubstring(str));
-    }
 }

@@ -27,11 +27,4 @@ public class RS_G01_LongPressedName extends AbstractQuestion {
         return i == name.length();
     }
 
-    @Override
-    public void simulate() {
-        RS_G01_LongPressedName test = new RS_G01_LongPressedName();
-        String name = "saeed";
-        String typed = "ssaaedd";
-        System.out.println("Is Long pressed name := " + test.isLongPressedName(name, typed));
-    }
 }

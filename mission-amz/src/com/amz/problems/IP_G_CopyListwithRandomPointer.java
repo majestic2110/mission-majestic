@@ -26,8 +26,4 @@ public class IP_G_CopyListwithRandomPointer extends AbstractQuestion {
         return map.get(head);
     }
 
-    @Override
-    public void simulate() {
-        // to be written
-    }
 }

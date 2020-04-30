@@ -31,8 +31,4 @@ public class CHZ_30Day_LeftmostColumnwithatLeastaOne extends AbstractQuestion {
         return colN;
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
 }

@@ -27,8 +27,4 @@ public class CHZ_30Day_ConstructBSTfromPreorderTraversal extends AbstractQuestio
         return node;
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
 }

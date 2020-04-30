@@ -17,8 +17,4 @@ public class CHZ_30Day_JumpGame extends AbstractQuestion {
         return true;
     }
 
-    @Override
-    public void simulate() {
-
-    }
 }

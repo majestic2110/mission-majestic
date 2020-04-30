@@ -21,8 +21,4 @@ public class CHZ_30Day_DiameterofBinaryTree extends AbstractQuestion {
         return Math.max(left, right) + 1;
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
 }

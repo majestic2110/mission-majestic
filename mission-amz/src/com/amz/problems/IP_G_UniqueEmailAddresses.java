@@ -40,10 +40,4 @@ public class IP_G_UniqueEmailAddresses extends AbstractQuestion {
         return buff.toString();
     }
 
-    @Override
-    public void simulate() {
-        IP_G_UniqueEmailAddresses test = new IP_G_UniqueEmailAddresses();
-        String[] emails = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
-        System.out.println("No. of Unique Emails := " + test.numUniqueEmails(emails));
-    }
 }

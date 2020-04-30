@@ -22,8 +22,4 @@ public class CHZ_30Day_MaximalSquare extends AbstractQuestion {
         return maxOne * maxOne;
     }
 
-    @Override
-    public void simulate() {
-        // to be done
-    }
 }

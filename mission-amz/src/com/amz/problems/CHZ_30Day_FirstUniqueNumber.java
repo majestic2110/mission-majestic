@@ -42,7 +42,4 @@ public class CHZ_30Day_FirstUniqueNumber extends AbstractQuestion {
         }
     }
 
-    @Override
-    public void simulate() {
-    }
 }

@@ -5,8 +5,6 @@ import com.amz.common.AbstractQuestion;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-import static org.junit.Assert.assertTrue;
-
 public class CHZ_30Day_LastStoneWeight extends AbstractQuestion {
     public int lastStoneWeight(int[] stones) {
         if (stones == null || stones.length == 0) {
@@ -25,12 +23,5 @@ public class CHZ_30Day_LastStoneWeight extends AbstractQuestion {
         }
         return pq.isEmpty() ? 0 : pq.poll();
 
-    }
-
-    @Override
-    public void simulate() {
-        CHZ_30Day_LastStoneWeight test = new CHZ_30Day_LastStoneWeight();
-        int[] stones = {2, 7, 4, 1, 8, 1};
-        assertTrue(test.lastStoneWeight(stones) == 1);
     }
 }
